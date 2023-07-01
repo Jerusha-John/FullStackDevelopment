@@ -1,0 +1,47 @@
+body {
+    background-image: url("download1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: red;
+}
+
+table {
+    border: 1px solid red;
+    /*border-collapse:collapse*/;
+    background-color: azure;
+    margin-left: 25%;   
+}
+
+th{
+    background-color:powderblue;
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.all-browsers > h2 {
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser {
+    background-color: lightgrey;
+}
+
+.browser > h2, p {
+    margin: 10px;
+    /*font-size: 90%;*/
+    color: black;
+    padding:5px;
+}
