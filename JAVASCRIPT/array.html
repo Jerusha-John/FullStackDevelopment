@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+    <script>
+        
+        var cars = ["Saab","Volvo","BMW"];
+        document.getElementById("demo1").innerHTML = cars;
+        cars[0] = "Ope1";
+        document.getElementById("demo2").innerHTML = cars;
+        const fruits = ["Banana","Orange","Apple","Mango"];
+        document.getElementById("demo3").innerHTML = fruits;
+        let size = fruits.length;
+        delete fruits[2];
+        document.getElementById("demo3").innerHTML = fruits;
+
+    </script>
+    
+
+</body>
+</html>
